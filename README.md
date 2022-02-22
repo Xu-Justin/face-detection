@@ -22,15 +22,14 @@ docker pull jstnxu/face-detection:latest
 
 ## Run docker
 
-This code will connect local directory `D:/my_folder/` to docker directory `my_folder/`.
 ```
-docker run -v D:/my_folder:/opt/build/my_folder -it jstnxu/face-detection
+docker run jstnxu/face-detection source target
 ```
+To connect local directory with docker directory, use `-v {local_dir}:/opt/build/{docker_dir}`.
 
-Example of running the code using docker. The image was retrieved from `my_folder/image.jpg` and the result was saved to `my_folder/result.jpg`.
+Below example code to connect local directory `D:/my_folder/` to docker directory `my_folder/` and will retrieve image from `D:/my_folder/image.jpg` and will save the result to `D:/my_folder/result.jpg`.
 ```
-Image Path: my_folder/image.jpg
-Output Path: my_folder/result.jpg
+docker run -v D:/my_folder:/opt/build/my_folder jstnxu/face-detection my_folder/image.jpg my_folder/result.jpg
 ```
 
 ## Appendix
