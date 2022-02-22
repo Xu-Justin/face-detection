@@ -1,3 +1,13 @@
+import argparse
+
+parser = argparse.ArgumentParser(description='Draw a bounding box on each detected face in an image.')
+parser.add_argument('source', metavar='source', type=str, help='path to load image')
+parser.add_argument('target', metavar='target', type=str, help='path to save result image')
+args = parser.parse_args()
+
+source_path = args.source
+target_path = args.target
+
 import cv2
 
 class Predictor():
@@ -31,13 +41,11 @@ def load_image(path):
 
 def save_image(path, image_bgr):
     cv2.imwrite(path, image_bgr)
+
     
-if __name__ == '__main__':
-    predictor = Predictor()
-    
-    input_path = input("Image Path: ")
-    image = load_image(input_path)
-    result = predictor.predict(image)
-    
-    output_path = input("Output Path: ")
-    save_image(output_path, result)
+predictor = Predictor()
+
+image = load_image(source_path)
+result = predictor.predict(image)
+
+save_image(target_path, result)
