@@ -2,7 +2,10 @@
 
 The program will receive an image and will draw a bounding box on each detected face.
 
-![result-0.jpg](https://github.com/Xu-Justin/face-detection/blob/main/sample_output/result-0.jpg?raw=true)
+<p float="left">
+  <img src="sample_image/0.jpg" width="400" />
+  <img src="sample_output/result-0.jpg" width="400" /> 
+</p>
 
 ## Build the docker
 
