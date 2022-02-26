@@ -33,5 +33,5 @@ $ docker run -v '/home/justin-xu/my_folder':'/app/image' jstnxu/face-detection:a
 The following code will process image from `D:/my_folder/my_image.jpg` and save the result to `D:/my_folder/result.jpg`.
 
 ```
-$ docker run -v 'D:/my_folder':'/app/image' jstnxu/face-detection:argparse 'image/my_image.jpg' 'image/result.jpg' 
+$ docker run -v D:/my_folder:/app/image jstnxu/face-detection:argparse image/my_image.jpg 'image/result.jpg 
 ```
