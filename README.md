@@ -1,5 +1,7 @@
 # face-detection
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XvDY8wFhDMQ3VFr2aX9InjU1ZGXfzPM1?usp=sharing)
+
 The program will receive an image and will draw a bounding box on each detected face.
 
 <p float="left">
