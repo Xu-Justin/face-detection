@@ -15,3 +15,7 @@ Read `README` file from the following links for more details on how to `build`, 
 
  * [`face-detection:argparse`](argparse/README.md)
  * [`face-detection:flask`](flask/README.md)
+
+---
+
+This project was developed as part of Nodeflux Internship x Kampus Merdeka 2nd Batch.
