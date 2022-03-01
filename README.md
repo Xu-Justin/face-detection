@@ -18,4 +18,4 @@ Read `README` file from the following links for more details on how to `build`, 
 
 ---
 
-This project was developed as part of Nodeflux Internship x Kampus Merdeka 2nd Batch.
+This project was developed as part of Nodeflux Internship x Kampus Merdeka.
