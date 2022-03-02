@@ -11,7 +11,7 @@ The program will receive an image and will draw a bounding box on each detected 
 
 ## Docker
 
-Docker image are available at [Docker Hub](https://hub.docker.com/repository/docker/jstnxu/face-detection/tags).
+Docker images are available at [Docker Hub](https://hub.docker.com/repository/docker/jstnxu/face-detection/tags).
 
 Read `README` file from the following links for more details on how to `build`, `pull`, or `run` the image.
 
